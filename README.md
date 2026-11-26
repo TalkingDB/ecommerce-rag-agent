@@ -1,5 +1,10 @@
 # E-commerce Domain Support Assistant (RAG)
 
+> [!NOTE]
+> **Kept unchanged for benchmarking.** TalkingDB's [ecommerce-rag benchmark](https://github.com/TalkingDB/talkingdb-benchmarks/tree/main/ecommerce-rag) runs this assistant's code exactly as it is at commit `5311ebd`, pinned in the benchmark's `AGENT_COMMIT.txt`, to measure what it retrieves. The benchmark checks out that commit, so later commits here do not change published results. Please do not change the code here; a change needs a new pinned commit and a new benchmark run.
+>
+> **Status:** benchmark subject, not a TalkingDB product. The original description follows.
+
 A customer-support chatbot for Indian e-commerce. It answers questions about **return, refund and exchange rules (Meesho), consumer law (Consumer Protection Act 2019, E-Commerce Rules 2020), a product manual (Havells)**. It answers **only from the provided documents**, cites its sources, handles follow-up questions, and refuses when the documents don't cover a question:
 
 > I don't have enough information in the provided documents.
